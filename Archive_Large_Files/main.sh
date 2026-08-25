@@ -28,7 +28,7 @@ fi
 
 #find thr list of files larger than 10KB
 
-for i in `find "$TARGET_PATH" -maxdepth "$DEPTH" -type f -size +10k`
+for i in `find "$TARGET_PATH" -maxdepth "$DEPTH" -type f -size +50M`
 do
 	if [[ $RUN -eq 0 ]]
 	then
